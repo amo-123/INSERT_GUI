@@ -1,0 +1,204 @@
+---------------STARTING POINT---------------
+   08-Apr-2019 10:49:24
+
+[Warning: Name is nonexistent or not a directory: Functions] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('path', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m', 109)" style="font-weight:bold">path</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m',109,0)">line 109</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m', 94)" style="font-weight:bold">addpath</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('big_switch', 'G:\MATLAB_big_switch\big_switch.m', 117)" style="font-weight:bold">big_switch</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\big_switch.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('do_fcn_type', 'G:\MATLAB_big_switch\do_fcn_type.m', 7)" style="font-weight:bold">do_fcn_type</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\do_fcn_type.m',7,0)">line 7</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CallingFunctionsScript', 'G:\MATLAB_big_switch\CallingFunctionsScript.m', 94)" style="font-weight:bold">CallingFunctionsScript</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\CallingFunctionsScript.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('big_switch', 'G:\MATLAB_big_switch\big_switch.m', 2)" style="font-weight:bold">big_switch</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\big_switch.m',2,0)">line 2</a>)] 
+[Warning: Name is nonexistent or not a directory: Geometries] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('path', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m', 109)" style="font-weight:bold">path</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m',109,0)">line 109</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m', 94)" style="font-weight:bold">addpath</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('big_switch', 'G:\MATLAB_big_switch\big_switch.m', 118)" style="font-weight:bold">big_switch</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\big_switch.m',118,0)">line 118</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('do_fcn_type', 'G:\MATLAB_big_switch\do_fcn_type.m', 7)" style="font-weight:bold">do_fcn_type</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\do_fcn_type.m',7,0)">line 7</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CallingFunctionsScript', 'G:\MATLAB_big_switch\CallingFunctionsScript.m', 94)" style="font-weight:bold">CallingFunctionsScript</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\CallingFunctionsScript.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('big_switch', 'G:\MATLAB_big_switch\big_switch.m', 2)" style="font-weight:bold">big_switch</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\big_switch.m',2,0)">line 2</a>)] 
+WARNING: fnc_type = "select and load .data file" not executed yet
+WARNING: it will be executed with sequence number = 20
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fopen')" style="font-weight:bold">fopen</a>
+File identifier must be an integer-valued scalar of type double.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('big_switch', 'G:\MATLAB_big_switch\big_switch.m', 131)" style="font-weight:bold">big_switch</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\big_switch.m',131,0)">line 131</a>)
+            fid = fopen([ws.pathname,ws.filename],'r','b'); % per win
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('search_done_fcn', 'G:\MATLAB_big_switch\search_done_fcn.m', 27)" style="font-weight:bold">search_done_fcn</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\search_done_fcn.m',27,0)">line 27</a>)
+            big_switch
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('get_field', 'G:\MATLAB_big_switch\get_field.m', 10)" style="font-weight:bold">get_field</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\get_field.m',10,0)">line 10</a>)
+[ output,ws ] = search_done_fcn( string_fcn_type, output,ws, 1);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('big_switch', 'G:\MATLAB_big_switch\big_switch.m', 314)" style="font-weight:bold">big_switch</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\big_switch.m',314,0)">line 314</a>)
+                [Frame, output,ws] = get_field('Frame', 'select and load .data file' ,output,ws);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('do_fcn_type', 'G:\MATLAB_big_switch\do_fcn_type.m', 7)" style="font-weight:bold">do_fcn_type</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\do_fcn_type.m',7,0)">line 7</a>)
+    big_switch
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('big_switch', 'G:\MATLAB_big_switch\big_switch.m', 9)" style="font-weight:bold">big_switch</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\big_switch.m',9,0)">line 9</a>)
+    [ output,ws ] = do_fcn_type( 'Signal Spectra', output,ws );
+} 
+ 
+ 
+Fnc_PlayAcquisition >>>
+Play acquisition has not been generalized yet. Number of heads must be 10
+return was commented
+Count: 480000 CountEw: 68015
+Count: 410000 CountEw: 57813
+Count: 370000 CountEw: 76343
+Count: 400000 CountEw: 62102
+Count: 400000 CountEw: 57439
+Count: 370000 CountEw: 63328
+Count: 370000 CountEw: 69276
+Count: 380000 CountEw: 56953
+Count: 400000 CountEw: 54119
+Count: 350000 CountEw: 64268
+Count: 330000 CountEw: 57757
+Count: 400000 CountEw: 51691
+Count: 390000 CountEw: 49253
+Count: 410000 CountEw: 52248
+Count: 430000 CountEw: 56487
+Count: 420000 CountEw: 59183
+Count: 430000 CountEw: 92282
+Count: 440000 CountEw: 67868
+Count: 450000 CountEw: 65213
+Count: 460000 CountEw: 72183
+Elapsed time is 166.177941 seconds.
+Main_Split
+[Warning: Name is nonexistent or not a directory: Functions] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('path', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m', 109)" style="font-weight:bold">path</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m',109,0)">line 109</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m', 94)" style="font-weight:bold">addpath</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Split', 'G:\MATLAB_modified_Main_Split\Main_Split.m', 12)" style="font-weight:bold">Main_Split</a> (<a href="matlab: opentoline('G:\MATLAB_modified_Main_Split\Main_Split.m',12,0)">line 12</a>)] 
+[Warning: Name is nonexistent or not a directory: Geometries] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('path', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m', 109)" style="font-weight:bold">path</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m',109,0)">line 109</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m', 94)" style="font-weight:bold">addpath</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Split', 'G:\MATLAB_modified_Main_Split\Main_Split.m', 13)" style="font-weight:bold">Main_Split</a> (<a href="matlab: opentoline('G:\MATLAB_modified_Main_Split\Main_Split.m',13,0)">line 13</a>)] 
+[Warning: Name is nonexistent or not a directory: Functions\.data Functions] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('path', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m', 109)" style="font-weight:bold">path</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m',109,0)">line 109</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m', 94)" style="font-weight:bold">addpath</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Split', 'G:\MATLAB_modified_Main_Split\Main_Split.m', 14)" style="font-weight:bold">Main_Split</a> (<a href="matlab: opentoline('G:\MATLAB_modified_Main_Split\Main_Split.m',14,0)">line 14</a>)] 
+Loading .data File
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fread')" style="font-weight:bold">fread</a>
+Operation is not implemented for requested file identifier.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('openDataFile', 'G:\MATLAB_big_switch\openDataFile.m', 16)" style="font-weight:bold">openDataFile</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\openDataFile.m',16,0)">line 16</a>)
+file = fread(fid,8,'uint16=>uint16','b');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Split', 'G:\MATLAB_modified_Main_Split\Main_Split.m', 31)" style="font-weight:bold">Main_Split</a> (<a href="matlab: opentoline('G:\MATLAB_modified_Main_Split\Main_Split.m',31,0)">line 31</a>)
+   [Frame,Node,Time_stamp,modality]=openDataFile(filename,filepath);
+} 
+Main_Split
+[Warning: Name is nonexistent or not a directory: Functions] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('path', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m', 109)" style="font-weight:bold">path</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m',109,0)">line 109</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m', 94)" style="font-weight:bold">addpath</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Split', 'G:\MATLAB_modified_Main_Split\Main_Split.m', 12)" style="font-weight:bold">Main_Split</a> (<a href="matlab: opentoline('G:\MATLAB_modified_Main_Split\Main_Split.m',12,0)">line 12</a>)] 
+[Warning: Name is nonexistent or not a directory: Geometries] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('path', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m', 109)" style="font-weight:bold">path</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m',109,0)">line 109</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m', 94)" style="font-weight:bold">addpath</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Split', 'G:\MATLAB_modified_Main_Split\Main_Split.m', 13)" style="font-weight:bold">Main_Split</a> (<a href="matlab: opentoline('G:\MATLAB_modified_Main_Split\Main_Split.m',13,0)">line 13</a>)] 
+[Warning: Name is nonexistent or not a directory: Functions\.data Functions] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('path', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m', 109)" style="font-weight:bold">path</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\path.m',109,0)">line 109</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m', 94)" style="font-weight:bold">addpath</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\general\addpath.m',94,0)">line 94</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Split', 'G:\MATLAB_modified_Main_Split\Main_Split.m', 14)" style="font-weight:bold">Main_Split</a> (<a href="matlab: opentoline('G:\MATLAB_modified_Main_Split\Main_Split.m',14,0)">line 14</a>)] 
+Loading .data File
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fseek')" style="font-weight:bold">fseek</a>
+Invalid file identifier. Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('openDataFile', 'G:\MATLAB_big_switch\openDataFile.m', 12)" style="font-weight:bold">openDataFile</a> (<a href="matlab: opentoline('G:\MATLAB_big_switch\openDataFile.m',12,0)">line 12</a>)
+fseek(fid,0,'eof');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Split', 'G:\MATLAB_modified_Main_Split\Main_Split.m', 31)" style="font-weight:bold">Main_Split</a> (<a href="matlab: opentoline('G:\MATLAB_modified_Main_Split\Main_Split.m',31,0)">line 31</a>)
+   [Frame,Node,Time_stamp,modality]=openDataFile(filename,filepath);
+} 
+INSERT_GUI
+ 
+ 
+MexPlayDataConverter >>>
+Elapsed time is 2.113094 seconds.
+Play data converted.
+ 
+ 
+MexPlayDataConverter >>>
+Elapsed time is 0.757201 seconds.
+Play data converted.
+ 
+ 
+Fnc_PlayAcquisition >>>
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Elapsed time is 42.819835 seconds.
+ 
+ 
+MexPlayDataConverter >>>
+Elapsed time is 3.174392 seconds.
+Play data converted.
+ 
+ 
+MexPlayDataConverter >>>
+Elapsed time is 3.129674 seconds.
+Play data converted.
+ 
+ 
+Fnc_PlayAcquisition >>>
+Play acquisition has not been generalized yet. Number of heads must be 10
+return was commented
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 930000 CountEw: 340131
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Elapsed time is 107.957183 seconds.
+ 
+ 
+MexPlayDataConverter >>>
+Elapsed time is 2.874266 seconds.
+Play data converted.
+ 
+ 
+Fnc_PlayAcquisition >>>
+Play acquisition has not been generalized yet. Number of heads must be 10
+return was commented
+Count: 1070000 CountEw: 218361
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Count: 0 CountEw: 0
+Elapsed time is 93.100793 seconds.
